@@ -1,0 +1,59 @@
+# === Node dependencies ===
+**/node_modules/
+**/npm-debug.log*
+
+# === Python (if applicable in backend) ===
+**/__pycache__/
+**/*.py[cod]
+**/*.egg-info/
+**/.Python
+**/env/
+**/venv/
+**/.venv/
+
+# === Build outputs ===
+client/build/
+client/dist/
+server/dist/
+server/build/
+
+# === Logs ===
+*.log
+logs/
+*.out
+*.err
+
+# === OS/Editor/System files ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# === Environment / Secrets ===
+*.env
+*.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Docker-related ===
+*.pid
+docker-compose.override.yml
+
+# === Test/coverage files ===
+coverage/
+*.lcov
+
+# === Misc ===
+*.bak
+*.tmp
+*.lock
+*.gz
+*.submissionStore.js
+
+# === Optional: Ignore frontend/static asset cache ==
+client/.cache/
+PWASurveyREADME.md
